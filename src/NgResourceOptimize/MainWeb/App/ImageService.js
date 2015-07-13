@@ -20,22 +20,27 @@
         }
 
         function makeFakeCollection() {
-            var prefix = '/Content/img/';
+
+            var cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
+
+            //var prefix = '/Content/img/';
             var suffix = '.png';
             var images = [];
 
-            for ( var i = 0; i < 25; i++ ) {
-                var imgPath = prefix + padString( '00', i ) + suffix;
+            for ( var i = 0; i < 16; i++ ) {
+
+                var prefix = padString( '00', i+1 );
+
+                var cdnPath = cdnFormat.replace( '{X}', prefix );
+                var imgPath = cdnPath + 'p' + padString( '00', i ) + suffix;
                 $log.info('padding for ' + imgPath);
                 images.push( { "id": i, "src": imgPath});
             }
             return images;
         }
 
-
-
         function padString( pad, i ) {
-            var imgName = 'p' + ( pad + i ).slice( -pad.length  );
+            var imgName = ( pad + i ).slice( -pad.length  );
             return imgName;
         }
 

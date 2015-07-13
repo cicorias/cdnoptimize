@@ -31,15 +31,16 @@
     </nav><!-- /.navbar -->
 
     <div class="container">
-        <!--<div class="row">
+        <div class="row">
             <div class="col-md-12">
                 <div class="jumbotron">
-                    <h1>Hello, world!</h1>
-                    <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+                    <h1>CDN Optimization Demo</h1>
+                    <p>This demonstrates an approach to using mulitple CNAMES for the Azure CDN to parallelize IMG loading.  Given that HTTP/1 is still only 2 connections per HOST, we utilized this until HTTP/2 is fully deployed, available in Edge and later versions of Chrome.</p>
                 </div>
             </div>
-        </div>-->
-        <h1>Foobar</h1>
+        </div>
+        <h1>Demo Loading</h1>
+        <h2>Press the button to load images...</h2>
         <div class="row">
             <div ng-controller="ImageController">
                 <button ng-click="getImages()">Get Images</button>
