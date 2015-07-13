@@ -23,10 +23,15 @@ namespace MainWeb
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/bootstrap-theme.css",
-                      "~/Content/site.css"));
+            //bundles.Add(new StyleBundle("~/Content/css").Include(
+            //          "~/Content/bootstrap.css",
+            //          "~/Content/bootstrap-theme.css",
+            //          "~/Content/site.css"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/ngapp").Include(
+                "~/App/app.js",
+                "~/App/ImageController.js"));
         }
     }
 }

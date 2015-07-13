@@ -1,0 +1,17 @@
+﻿body {
+}
+
+.pimg {
+    /* margin: 0 auto; */
+    margin: 10px 10px 10px 10px;
+    width: 164px;
+    height: 164px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center;
+    float: left;
+    text-align: center;
+    line-height: 164px;
+
+    font-size:xx-large;
+}
