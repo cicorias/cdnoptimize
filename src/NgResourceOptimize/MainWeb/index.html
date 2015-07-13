@@ -34,16 +34,17 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="jumbotron">
-                    <h1>CDN Optimization Demo</h1>
+                    <h3>CDN Optimization Demo</h3>
                     <p>This demonstrates an approach to using mulitple CNAMES for the Azure CDN to parallelize IMG loading.  Given that HTTP/1 is still only 2 connections per HOST, we utilized this until HTTP/2 is fully deployed, available in Edge and later versions of Chrome.</p>
                 </div>
             </div>
         </div>
-        <h1>Demo Loading</h1>
-        <h2>Press the button to load images...</h2>
+        <h3>Demo Loading</h3>
+        <p>Press the button to load images...</p>
         <div class="row">
             <div ng-controller="ImageController">
-                <button ng-click="getImages()">Get Images</button>
+                <button ng-click="getImages(true)">CDN path</button>
+                <button ng-click="getImages(false)">Origin</button>
                 <div class="col-md-12">
                     <div ng-repeat-start="n in images">
                         <div style="background-image:url({{n.src}})" class="pimg">{{n.id}}</div>

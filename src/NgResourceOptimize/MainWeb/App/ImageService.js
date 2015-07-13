@@ -13,15 +13,15 @@
 
         return service;
 
-        function getData() {
+        function getData(cdnFormat) {
             var deferred = $q.defer();
-            deferred.resolve( makeFakeCollection() );
+            deferred.resolve( makeFakeCollection(cdnFormat) );
             return deferred.promise;
         }
 
-        function makeFakeCollection() {
+        function makeFakeCollection(cdnFormat) {
 
-            var cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
+            //var cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
 
             //var prefix = '/Content/img/';
             var suffix = '.png';

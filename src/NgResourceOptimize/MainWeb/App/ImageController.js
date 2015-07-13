@@ -15,8 +15,15 @@
         $scope.images = vm.images;
         $scope.getImages = getImageList;
 
-        function getImageList() {
-            imageService.getData().then(
+        function getImageList( useCdn ) {
+
+            var cdnFormat = "/Content/img/";
+
+            if ( useCdn ) {
+                cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
+            }
+
+            imageService.getData(cdnFormat).then(
                 function ( data ) {
                     $scope.images = data;
                     $log.info( 'getImageList called' );
