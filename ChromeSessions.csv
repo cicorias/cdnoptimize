@@ -1,0 +1,64 @@
+#	Result	Protocol	Host	URL	Body	Caching	Content-Type	Process	Comments	Custom	TCP/IP_Connect	ClientConnected	TTFB	TTLB	Overall_Elapsed	
+10	200	HTTP	zhost.azurewebsites.net	/Content/img/p00.png	175,197	public,max-age=86400	image/png	chrome:11956			29	10:41:26.366	297.00	1,114.45	0:00:01.114	
+11	200	HTTP	zhost.azurewebsites.net	/Content/img/p01.png	175,197	public,max-age=86400	image/png	chrome:11956			36	10:41:26.365	257.74	1,112.46	0:00:01.112	
+12	200	HTTP	zhost.azurewebsites.net	/Content/img/p02.png	175,197	public,max-age=86400	image/png	chrome:11956			28	10:41:26.363	228.71	771.93	0:00:00.771	
+13	200	HTTP	zhost.azurewebsites.net	/Content/img/p03.png	175,197	public,max-age=86400	image/png	chrome:11956			28	10:41:26.364	180.11	578.26	0:00:00.578	
+14	200	HTTP	zhost.azurewebsites.net	/Content/img/p04.png	175,197	public,max-age=86400	image/png	chrome:11956			35	10:41:26.364	173.96	662.53	0:00:00.662	
+15	200	HTTP	zhost.azurewebsites.net	/Content/img/p05.png	175,197	public,max-age=86400	image/png	chrome:11956			34	10:41:26.365	188.11	767.92	0:00:00.767	
+16	200	HTTP	zhost.azurewebsites.net	/Content/img/p10.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.364	295.10	524.20	0:00:00.524	
+17	200	HTTP	zhost.azurewebsites.net	/Content/img/p11.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.364	254.81	518.93	0:00:00.518	
+18	200	HTTP	zhost.azurewebsites.net	/Content/img/p12.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.365	344.53	477.53	0:00:00.477	
+19	200	HTTP	zhost.azurewebsites.net	/Content/img/p13.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.363	332.53	471.53	0:00:00.471	
+20	200	HTTP	zhost.azurewebsites.net	/Content/img/p14.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.366	158.01	630.03	0:00:00.630	
+21	200	HTTP	zhost.azurewebsites.net	/Content/img/p15.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.365	324.31	632.03	0:00:00.632	
+22	200	HTTP	zhost.azurewebsites.net	/Content/img/p09.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.364	169.01	620.02	0:00:00.620	
+23	200	HTTP	zhost.azurewebsites.net	/Content/img/p07.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.364	500.94	612.01	0:00:00.612	
+24	200	HTTP	zhost.azurewebsites.net	/Content/img/p06.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.365	448.02	537.02	0:00:00.537	
+25	200	HTTP	zhost.azurewebsites.net	/Content/img/p08.png	175,197	public,max-age=86400	image/png	chrome:11956				10:41:26.363	427.02	520.02	0:00:00.520	
+27	200	HTTP	cdn01.r.zhdev.net	/Content/img/p00.png	175,197	public,max-age=86400	image/png	chrome:11956			23	10:41:52.366	273.41	498.84	0:00:00.498	
+28	200	HTTP	cdn02.r.zhdev.net	/Content/img/p01.png	175,197	public,max-age=86400	image/png	chrome:11956			31	10:41:52.366	390.69	1,078.59	0:00:01.078	
+29	200	HTTP	cdn03.r.zhdev.net	/Content/img/p02.png	175,197	public,max-age=86400	image/png	chrome:11956			31	10:41:52.368	1,355.76	2,050.50	0:00:02.050	
+30	200	HTTP	cdn04.r.zhdev.net	/Content/img/p03.png	175,197	public,max-age=86400	image/png	chrome:11956			32	10:41:52.368	495.85	1,166.39	0:00:01.166	
+31	200	HTTP	cdn05.r.zhdev.net	/Content/img/p04.png	175,197	public,max-age=86400	image/png	chrome:11956			23	10:41:52.369	388.69	821.30	0:00:00.821	
+32	200	HTTP	cdn06.r.zhdev.net	/Content/img/p05.png	175,197	public,max-age=86400	image/png	chrome:11956			31	10:41:52.369	437.81	1,088.59	0:00:01.088	
+33	200	HTTP	cdn07.r.zhdev.net	/Content/img/p06.png	175,197	public,max-age=86400	image/png	chrome:11956			23	10:41:52.369	387.69	818.29	0:00:00.818	
+34	200	HTTP	cdn08.r.zhdev.net	/Content/img/p07.png	175,197	public,max-age=86400	image/png	chrome:11956			32	10:41:52.370	390.69	1,078.60	0:00:01.078	
+35	200	HTTP	cdn09.r.zhdev.net	/Content/img/p08.png	175,197	public,max-age=86400	image/png	chrome:11956			23	10:41:52.370	339.01	811.27	0:00:00.811	
+36	200	HTTP	cdn10.r.zhdev.net	/Content/img/p09.png	175,197	public,max-age=86400	image/png	chrome:11956			31	10:41:52.370	405.69	1,081.59	0:00:01.081	
+37	200	HTTP	cdn11.r.zhdev.net	/Content/img/p10.png	175,197	public,max-age=86400	image/png	chrome:11956			198	10:41:52.879	572.75	1,270.78	0:00:01.270	
+38	200	HTTP	cdn12.r.zhdev.net	/Content/img/p11.png	175,197	public,max-age=86400	image/png	chrome:11956			73	10:41:53.190	562.11	1,406.75	0:00:01.406	
+39	200	HTTP	cdn13.r.zhdev.net	/Content/img/p12.png	175,197	public,max-age=86400	image/png	chrome:11956			73	10:41:53.198	560.37	1,398.77	0:00:01.398	
+40	200	HTTP	cdn14.r.zhdev.net	/Content/img/p13.png	175,197	public,max-age=86400	image/png	chrome:11956			88	10:41:53.204	565.42	1,476.15	0:00:01.476	
+41	200	HTTP	cdn15.r.zhdev.net	/Content/img/p14.png	175,197	public,max-age=86400	image/png	chrome:11956			66	10:41:53.453	397.94	1,365.85	0:00:01.365	
+42	200	HTTP	cdn16.r.zhdev.net	/Content/img/p15.png	175,197	public,max-age=86400	image/png	chrome:11956			204	10:41:53.455	605.07	1,399.88	0:00:01.399	
+49	200	HTTP	cdn01.zhdev.net	/Content/img/p00.png	175,197		image/png	chrome:11956			16	10:42:00.792	413.02	923.07	0:00:00.923	
+50	200	HTTP	cdn02.zhdev.net	/Content/img/p01.png	175,197		image/png	chrome:11956			17	10:42:00.795	130.92	596.22	0:00:00.596	
+51	200	HTTP	cdn03.zhdev.net	/Content/img/p02.png	175,197		image/png	chrome:11956			15	10:42:00.796	110.94	789.07	0:00:00.789	
+52	200	HTTP	cdn04.zhdev.net	/Content/img/p03.png	175,197		image/png	chrome:11956			17	10:42:00.796	138.60	846.07	0:00:00.846	
+53	200	HTTP	cdn05.zhdev.net	/Content/img/p04.png	175,197		image/png	chrome:11956			17	10:42:00.796	201.38	656.22	0:00:00.656	
+54	200	HTTP	cdn06.zhdev.net	/Content/img/p05.png	175,197		image/png	chrome:11956			17	10:42:00.797	214.37	913.08	0:00:00.913	
+55	200	HTTP	cdn07.zhdev.net	/Content/img/p06.png	175,197		image/png	chrome:11956			17	10:42:00.797	460.04	851.12	0:00:00.851	
+56	200	HTTP	cdn08.zhdev.net	/Content/img/p07.png	175,197		image/png	chrome:11956			17	10:42:00.798	449.05	960.10	0:00:00.960	
+57	200	HTTP	cdn09.zhdev.net	/Content/img/p08.png	175,197		image/png	chrome:11956			17	10:42:00.798	475.03	978.10	0:00:00.978	
+58	200	HTTP	cdn10.zhdev.net	/Content/img/p09.png	175,197		image/png	chrome:11956			17	10:42:00.799	215.41	921.11	0:00:00.921	
+59	200	HTTP	cdn11.zhdev.net	/Content/img/p10.png	175,197		image/png	chrome:11956			239	10:42:01.405	357.88	720.79	0:00:00.720	
+60	200	HTTP	cdn12.zhdev.net	/Content/img/p11.png	175,197		image/png	chrome:11956			186	10:42:01.464	311.87	667.78	0:00:00.667	
+61	200	HTTP	cdn13.zhdev.net	/Content/img/p12.png	175,197		image/png	chrome:11956			124	10:42:01.596	232.03	551.95	0:00:00.551	
+62	200	HTTP	cdn14.zhdev.net	/Content/img/p13.png	175,197		image/png	chrome:11956			115	10:42:01.654	218.01	471.92	0:00:00.471	
+63	200	HTTP	cdn15.zhdev.net	/Content/img/p14.png	175,197		image/png	chrome:11956			110	10:42:01.663	230.00	470.89	0:00:00.470	
+64	404	HTTP	cdn16.zhdev.net	/Content/img/p15.png	345		text/html	chrome:11956			70	10:42:01.719	175.99	176.99	0:00:00.176	
+66	200	HTTP	cdn01.zhdev.net	/Content/img/p01.png	175,197		image/png	chrome:11956				10:42:04.552	116.44	479.85	0:00:00.479	
+67	200	HTTP	cdn01.zhdev.net	/Content/img/p02.png	175,197		image/png	chrome:11956			9	10:42:04.553	119.42	539.85	0:00:00.539	
+68	200	HTTP	cdn01.zhdev.net	/Content/img/p03.png	175,197		image/png	chrome:11956			32	10:42:04.559	160.84	599.87	0:00:00.599	
+69	200	HTTP	cdn01.zhdev.net	/Content/img/p04.png	175,197		image/png	chrome:11956			90	10:42:04.560	254.37	533.86	0:00:00.533	
+70	200	HTTP	cdn01.zhdev.net	/Content/img/p05.png	175,197		image/png	chrome:11956			115	10:42:04.561	257.35	606.87	0:00:00.606	
+71	200	HTTP	cdn01.zhdev.net	/Content/img/p06.png	175,197		image/png	chrome:11956			115	10:42:04.562	262.35	542.85	0:00:00.542	
+72	200	HTTP	cdn01.zhdev.net	/Content/img/p07.png	175,197		image/png	chrome:11956				10:42:04.552	115.01	394.50	0:00:00.394	
+73	200	HTTP	cdn01.zhdev.net	/Content/img/p08.png	175,197		image/png	chrome:11956				10:42:04.560	120.01	350.49	0:00:00.350	
+74	200	HTTP	cdn01.zhdev.net	/Content/img/p09.png	175,197		image/png	chrome:11956				10:42:04.553	117.01	381.50	0:00:00.381	
+75	200	HTTP	cdn01.zhdev.net	/Content/img/p10.png	175,197		image/png	chrome:11956				10:42:04.562	150.02	325.51	0:00:00.325	
+76	200	HTTP	cdn01.zhdev.net	/Content/img/p11.png	175,197		image/png	chrome:11956				10:42:04.559	170.65	495.50	0:00:00.495	
+77	200	HTTP	cdn01.zhdev.net	/Content/img/p12.png	175,197		image/png	chrome:11956				10:42:04.561	172.59	492.52	0:00:00.492	
+78	200	HTTP	cdn01.zhdev.net	/Content/img/p13.png	175,197		image/png	chrome:11956				10:42:04.562	93.02	302.52	0:00:00.302	
+79	200	HTTP	cdn01.zhdev.net	/Content/img/p14.png	175,197		image/png	chrome:11956				10:42:04.552	166.04	288.55	0:00:00.288	
+80	200	HTTP	cdn01.zhdev.net	/Content/img/p15.png	175,197	public,max-age=86400	image/png	chrome:11956				10:42:04.560	224.55	275.53	0:00:00.275	

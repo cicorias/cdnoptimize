@@ -46,13 +46,12 @@
                         <input type="checkbox" ng-model="useBackground">Load as background image
                     </label>
                 </div>
-                <button ng-click="getImages('cdn')">Multipel CDN path</button>
-                <button ng-click="getImages('singlecdn')">Single CDN path</button>
+                <button ng-click="getImages('cdn')">Unique Host CDN path</button>
+                <button ng-click="getImages('singlecdn')">Single Host CDN path</button>
                 <button ng-click="getImages('fcdn')">Random Host to Origin</button>
                 <button ng-click="getImages()">Direct to Origin</button>
                 <div class="col-md-12">
                     <div ng-repeat-start="n in images">
-
                         <div ng-if="useBackground" style="background-image:url({{n.src}})" class="pimg">{{n.id}}</div>
                         <div ng-if="!useBackground" class="fimg"><img src="{{n.src}}" /><p>{{n.id}}</p></div>
                     </div>
