@@ -9,23 +9,29 @@
     function ImageController( $scope, $location, $q, $log, imageService ) {
         var vm = this;
         vm.images = [];
-        vm.getImages = getImageList;
         vm.title = 'ImageController';
+        vm.useBackground = false;
 
         $scope.images = vm.images;
         $scope.getImages = getImageList;
+        $scope.useBackground = vm.useBackground;
 
-        function getImageList( useCdn ) {
+        function getImageList( option ) {
 
             var cdnFormat = "/Content/img/";
 
-            if ( useCdn ) {
+            if ( option==="fcdn" ) {
                 cdnFormat = 'http://cdn{X}.r.cicoriadev.net/Content/img/';
             }
-            //if ( useCdn ) {
-            //    cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
-            //}
-            ////r.cicoriadev.net
+
+            if ( option == "cdn" ) {
+                    cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
+            }
+
+            if ( option == "singlecdn" ) {
+                cdnFormat = 'http://cdn01.cicoriadev.net/Content/img/';
+            }
+
 
             imageService.getData(cdnFormat).then(
                 function ( data ) {

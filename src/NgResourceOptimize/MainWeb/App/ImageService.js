@@ -21,9 +21,6 @@
 
         function makeFakeCollection(cdnFormat) {
 
-            //var cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
-
-            //var prefix = '/Content/img/';
             var suffix = '.png';
             var images = [];
 
