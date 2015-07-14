@@ -20,8 +20,12 @@
             var cdnFormat = "/Content/img/";
 
             if ( useCdn ) {
-                cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
+                cdnFormat = 'http://cdn{X}.r.cicoriadev.net/Content/img/';
             }
+            //if ( useCdn ) {
+            //    cdnFormat = 'http://cdn{X}.cicoriadev.net/Content/img/';
+            //}
+            ////r.cicoriadev.net
 
             imageService.getData(cdnFormat).then(
                 function ( data ) {
